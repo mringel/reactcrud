@@ -43,7 +43,7 @@ app.post('/api/comments', function(req, res) {
 
 app.put('/api/comments/:id',  function(req, res) {
   var noteData = req.body;
-  console.log(noteData)
+  console.log(noteData);
   delete noteData._id;
   Note.update({_id: req.params.id}, noteData, function(err) {
     if (err) return console.log(err);

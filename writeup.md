@@ -1,0 +1,8 @@
+# React.js vs. Angular.js
+**Matthew Ringel**  
+**10 December, 2015**  
+**sea-d45-javascript**  
+
+It's difficult to write knowledgeably about the difference between React and Angular while still feeling like a beginner in both, but if I had to sum up the difference between them it would be that Angular feels like putting JavaScript in your html whereas React feels like putting html in your JavaScript (Apologies if I'm just repeating something I heard in class. I feel like maybe Tyler said this in class at one point, but now I know what he was talking about.)  From an aesthetic standpoint, the JSX that React uses is really ugly, but from a workflow standpoint I found it more natural to put all the logic of the view in JavaScript instead of toggling between html and JavaScript like Angular requires.
+
+In practice I think I was running up against limitations in React. React touts "one-way-data-flow" as a feature.  I'm sure it's just my inexperience with React, but I found this to be very limiting in being able to make my UI interactive. It seems that there are libraries and plugins designed to overcome this limitation that involve event dispatchers and a global state variable handler.  Angular's two-way data binding make these outside components unnecessary. On the other hand, React is very fast and light and handles updating the DOM very efficiently, via its "virtual DOM".  React lets you install just the pieces you're going to use whereas Angular comes with a much larger overhead.  As a beginner, though, it's hard to know which pieces to install with React, while with Angular you probably have the pieces you need and just need to learn how to use them.
